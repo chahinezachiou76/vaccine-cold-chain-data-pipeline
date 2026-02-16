@@ -22,8 +22,11 @@ The pipeline:
 ---
 
 ## 🧱 Architecture
-![Architecture](architecture.png)
-
+<details>
+  <summary><b>Click to view detailed Architecture Diagram</b></summary>
+  <br>
+  <img src="Vaccine Cold Chain Data Pipeline Architecture.drawio.png" width="100%">
+</details>
 ---
 
 ## 📊 Dashboard Preview
