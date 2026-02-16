@@ -2,7 +2,7 @@ import random
 from datetime import datetime
 import pyodbc
 
-# الاتصال بـ SQL Server
+#   SQL Server
 conn = pyodbc.connect(
     "DRIVER={ODBC Driver 17 for SQL Server};"
     "SERVER=(local);"
@@ -12,7 +12,6 @@ conn = pyodbc.connect(
 
 cursor = conn.cursor()
 
-# توليد بيانات وإدخالها مباشرة
 for i in range(20):
     timestamp = datetime.now()
     sensor_id = random.choice(["S01", "S02", "S03"])
